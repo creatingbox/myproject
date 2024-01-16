@@ -3,4 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("안녕. 이 세상아")
+    return HttpResponse("안녕. 이 세상아\
+        반갑다. 테스트 중이다")
